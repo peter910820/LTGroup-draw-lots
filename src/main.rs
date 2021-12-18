@@ -22,7 +22,7 @@ fn main() {
             }else if input == 100{
                 break 'main
             }
-            let reporter = rand::thread_rng().gen_range(0..8);
+            let reporter = rand::thread_rng().gen_range(0..9);
             println!("今天的主講者是: {}",tup[reporter]);
             x += 1;
         }
